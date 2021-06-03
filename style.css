@@ -1,0 +1,21 @@
+body
+{
+	background-image: url(https://img.freepik.com/free-vector/purple-background-with-quiz-word-colorful-people_52683-126.jpg?size=338&ext=jpg);
+    background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	width: 300px;
+}
