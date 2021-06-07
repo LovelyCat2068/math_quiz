@@ -13,4 +13,7 @@ document.getElementById("output").innerHTML = row;
 
 document.getElementById("number1").innerHTML = "";
 document.getElementById("number2").innerHTML = "";
+    
+  var player__1 =  window.localStorage.getItem("Player1");
+    var player__2 =  window.localStorage.getItem("Player2");
 }
