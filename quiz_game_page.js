@@ -9,9 +9,9 @@ check_button = "<br><br><button class='btn btn-info' onclick='check()'>Check</bu
 row = question_number +  input_box + check_button;
 document.getElementById("output").innerHTML = row;
  
- var player__1_ =  localStorage.getItem("Player_1");
- var player__2_ =  localStorage.getItem("Player_2");
+ var player__1 =  localStorage.getItem("Player_1");
+ var player__2 =  localStorage.getItem("Player_2");
 
- document.getElementById("player1_name").innerHTML = player__1_;
- document.getElementById("player2_name").innerHTML = player__2_;
+ document.getElementById("player1_name").innerHTML = player__1;
+ document.getElementById("player2_name").innerHTML = player__2;
 }
